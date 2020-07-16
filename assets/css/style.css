@@ -24,7 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header section {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ header section {
     font-size: 20px;
 }
 
-header section ul {
+header nav ul {
     list-style-type: none;
 }
 
-header section ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -188,13 +188,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* Changed footer from class selector to element selector */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
